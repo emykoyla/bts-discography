@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BTS Discography — explore the music journey of BTS and its seven members.">
+  <title>BTS Discography — The Purple Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="BTS Discography home">
+      <span class="brand-mark">紫</span><span>BTS<span class="brand-light"> DISC</span>OGRAPHY</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" data-i18n="navAbout">Sobre</a>
+      <a href="#discography" data-i18n="navDiscography">Discografia</a>
+      <a href="#solo" data-i18n="navSolo">Carreiras solo</a>
+      <a href="#timeline" data-i18n="navTimeline">Linha do tempo</a>
+    </nav>
+    <button class="language-toggle" id="languageToggle" aria-label="Switch language">EN</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="eyebrow">UM ARQUIVO MUSICAL • 2013 — PRESENTE</span></p>
+        <h1>More than music.<br><em>A whole universe.</em></h1>
+        <p class="hero-description" data-i18n="heroText">Explore a jornada musical do BTS — dos primeiros lançamentos aos projetos individuais dos sete integrantes.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#discography" data-i18n="explore">Explorar discografia <span>↗</span></a>
+          <a class="text-link" href="#about" data-i18n="discover">Conheça o projeto</a>
+        </div>
+        <div class="hero-note"><span class="pulse"></span><span data-i18n="heroNote">FEITO PARA ARMY, COM CARINHO.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative purple album-inspired artwork">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-disc"><div class="disc-center">BTS<br><small>防弾少年団</small></div></div>
+        <div class="floating-tag tag-top">THE PURPLE ARCHIVE</div>
+        <div class="floating-tag tag-bottom">7 MEMBERS · 1 UNIVERSE</div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+      </div>
+      <div class="hero-scroll"><span></span><span data-i18n="scroll">ROLE PARA EXPLORAR</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / <span data-i18n="aboutLabel">O PROJETO</span></p>
+        <h2 data-i18n="aboutTitle">Uma jornada, <em>muitas histórias.</em></h2>
+      </div>
+      <div class="intro-grid">
+        <p class="intro-lead" data-i18n="aboutLead">BTS Discography é um espaço dedicado a organizar e celebrar a música do BTS e os caminhos artísticos de seus sete integrantes.</p>
+        <div class="intro-detail">
+          <p data-i18n="aboutText">Do trabalho em grupo às expressões individuais, este arquivo reúne lançamentos, eras e momentos que ajudam a contar essa trajetória. O conteúdo está em construção e será ampliado aos poucos.</p>
+          <span class="small-rule"></span><span class="micro-label">A PURPLE JOURNEY / 2013—∞</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="discography section-wrap" id="discography">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">02 / <span data-i18n="discLabel">MÚSICA EM GRUPO</span></p><h2 data-i18n="discTitle">BTS <em>Discography</em></h2></div>
+        <p class="section-aside" data-i18n="discAside">Álbuns, EPs e projetos<br>lançados como grupo.</p>
+      </div>
+      <div class="toolbar">
+        <label class="search-box"><span>⌕</span><input id="albumSearch" type="search" placeholder="Buscar lançamento..." data-i18n-placeholder="searchPlaceholder"></label>
+        <div class="filter-group" role="group" aria-label="Filter releases">
+          <button class="filter-chip active" data-filter="all" data-i18n="filterAll">Todos</button>
+          <button class="filter-chip" data-filter="album" data-i18n="filterAlbums">Álbuns</button>
+          <button class="filter-chip" data-filter="ep" data-i18n="filterEP">EPs</button>
+        </div>
+      </div>
+      <div class="album-grid" id="albumGrid">
+        <article class="release-card" data-type="album" data-search="proof anthology 2022">
+          <div class="cover cover-proof"><span>PROOF</span><small>2022 · ANTHOLOGY</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeAlbum">ÁLBUM / ANTOLOGIA</span><h3>Proof</h3><p>2022 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+        <article class="release-card" data-type="album" data-search="be 2020">
+          <div class="cover cover-be"><span>BE</span><small>2020 · THE ESSENTIAL EDITION</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeAlbum">ÁLBUM</span><h3>BE</h3><p>2020 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+        <article class="release-card" data-type="album" data-search="map of the soul 7 2020">
+          <div class="cover cover-mots"><span>7</span><small>MAP OF THE SOUL</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeAlbum">ÁLBUM</span><h3>MAP OF THE SOUL : 7</h3><p>2020 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+        <article class="release-card" data-type="ep" data-search="map of the soul persona 2019">
+          <div class="cover cover-persona"><span>PERSONA</span><small>MAP OF THE SOUL</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeEP">EP</span><h3>MAP OF THE SOUL : PERSONA</h3><p>2019 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+        <article class="release-card" data-type="album" data-search="love yourself answer 2018">
+          <div class="cover cover-answer"><span>LOVE<br>YOURSELF</span><small>結 'ANSWER'</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeAlbum">ÁLBUM</span><h3>LOVE YOURSELF 結 'Answer'</h3><p>2018 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+        <article class="release-card" data-type="ep" data-search="love yourself tear 2018">
+          <div class="cover cover-tear"><span>LOVE<br>YOURSELF</span><small>轉 'TEAR'</small></div>
+          <div class="release-info"><span class="release-type" data-i18n="typeEP">EP</span><h3>LOVE YOURSELF 轉 'Tear'</h3><p>2018 <span>·</span> Korean</p><a href="https://ibighit.com/bts/eng/discography/" target="_blank" rel="noreferrer" class="release-link" data-i18n="officialInfo">Informações oficiais ↗</a></div>
+        </article>
+      </div>
+      <p class="content-note" data-i18n="catalogNote">A seleção acima é apenas uma amostra inicial, não a discografia completa. Consulte a fonte oficial para conferir todos os lançamentos.</p>
+    </section>
+
+    <section class="solo-section section-wrap" id="solo">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">03 / <span data-i18n="soloLabel">CAMINHOS INDIVIDUAIS</span></p><h2 data-i18n="soloTitle">Seven voices.<br><em>Seven worlds.</em></h2></div>
+        <p class="section-aside" data-i18n="soloAside">Explore as identidades<br>artísticas de cada membro.</p>
+      </div>
+      <div class="member-grid">
+        <article class="member-card"><span class="member-number">01</span><div class="member-symbol">RM</div><h3>RM</h3><p>Kim Namjoon</p><span class="member-line"></span><small>LEADER · RAPPER</small></article>
+        <article class="member-card"><span class="member-number">02</span><div class="member-symbol">진</div><h3>Jin</h3><p>Kim Seokjin</p><span class="member-line"></span><small>VOCALIST</small></article>
+        <article class="member-card"><span class="member-number">03</span><div class="member-symbol">슈가</div><h3>SUGA</h3><p>Min Yoongi</p><span class="member-line"></span><small>RAPPER · PRODUCER</small></article>
+        <article class="member-card"><span class="member-number">04</span><div class="member-symbol">제이홉</div><h3>j-hope</h3><p>Jung Hoseok</p><span class="member-line"></span><small>RAPPER · DANCER</small></article>
+        <article class="member-card"><span class="member-number">05</span><div class="member-symbol">지민</div><h3>Jimin</h3><p>Park Jimin</p><span class="member-line"></span><small>VOCALIST · DANCER</small></article>
+        <article class="member-card"><span class="member-number">06</span><div class="member-symbol">뷔</div><h3>V</h3><p>Kim Taehyung</p><span class="member-line"></span><small>VOCALIST</small></article>
+        <article class="member-card"><span class="member-number">07</span><div class="member-symbol">JK</div><h3>Jung Kook</h3><p>Jeon Jungkook</p><span class="member-line"></span><small>VOCALIST</small></article>
+      </div>
+      <p class="content-note" data-i18n="soloNote">Esta seção será expandida com álbuns, singles, mixtapes e colaborações de cada integrante.</p>
+    </section>
+
+    <section class="timeline-section section-wrap" id="timeline">
+      <div class="section-heading"><p class="eyebrow">04 / <span data-i18n="timelineLabel">AO LONGO DOS ANOS</span></p><h2 data-i18n="timelineTitle">The journey <em>continues.</em></h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span>2013</span><div><h3>2 COOL 4 SKOOL</h3><p data-i18n="time2013">O início da jornada musical do BTS.</p></div></div>
+        <div class="timeline-item"><span>2015</span><div><h3>THE MOST BEAUTIFUL MOMENT IN LIFE</h3><p data-i18n="time2015">Uma nova fase sonora e conceitual.</p></div></div>
+        <div class="timeline-item"><span>2017</span><div><h3>LOVE YOURSELF</h3><p data-i18n="time2017">Uma era marcada por uma narrativa sobre amor-próprio.</p></div></div>
+        <div class="timeline-item"><span>2020</span><div><h3>MAP OF THE SOUL · BE</h3><p data-i18n="time2020">Novos capítulos na discografia do grupo.</p></div></div>
+        <div class="timeline-item"><span>2022</span><div><h3>PROOF</h3><p data-i18n="time2022">Uma antologia que revisita a trajetória do grupo.</p></div></div>
+      </div>
+    </section>
+
+    <section class="closing section-wrap">
+      <span class="closing-star">✦</span>
+      <p class="eyebrow" data-i18n="closingEyebrow">BORAHAE, ALWAYS</p>
+      <h2>Music connects us<br><em>紫 forever.</em></h2>
+      <p data-i18n="closingText">Sete artistas, muitas histórias e uma música que continua encontrando pessoas pelo mundo.</p>
+      <a class="button button-outline" href="https://ibighit.com/bts/eng/" target="_blank" rel="noreferrer" data-i18n="officialSite">Visitar site oficial ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-mark">紫</span><span>BTS<span class="brand-light"> DISC</span>OGRAPHY</span></a>
+    <p data-i18n="footerText">Projeto independente, feito por fã. Não oficial e sem afiliação à BIGHIT MUSIC ou HYBE.</p>
+    <span>© <span id="year"></span> · THE PURPLE ARCHIVE</span>
+  </footer>
+</body>
+</html>
