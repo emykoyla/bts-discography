@@ -1,36 +1,63 @@
 # 💜 BTS Discography — The Purple Archive
 
-A bilingual (Portuguese/English), fan-made web project celebrating the music journey of BTS and the individual artistic paths of its seven members.
+**A musical journey through the universe of BTS.**
 
-## ✨ Features
-- Responsive layout for desktop and mobile
-- Portuguese / English language toggle
-- Group discography showcase
-- Search and category filters for releases
-- Seven-member solo career section
-- Musical timeline
-- Purple-inspired visual identity
+Welcome to **BTS Discography — The Purple Archive**, a fan-made project dedicated to celebrating the musical journey of BTS and the individual careers of its seven members.
 
-## 🛠️ Built with
+Explore their albums, discover their musical eras, and learn more about the artistic identities that make BTS so special.
+
+---
+
+## ✨ About the Project
+
+The Purple Archive was created to bring together information about BTS's musical history in one place, from group releases to each member's solo projects.
+
+With a purple-inspired visual identity and an intuitive interface, the website offers an immersive experience for ARMY and anyone interested in exploring BTS's discography.
+
+## 🌌 Explore the Website
+
+- **Group Discography:** Discover BTS albums, EPs, and musical releases.
+- **Solo Careers:** Explore the individual musical journeys of RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook.
+- **Musical Timeline:** Follow important moments and eras throughout BTS's career.
+- **Bilingual Experience:** Navigate the website in Portuguese or English.
+- **Interactive Features:** Search for releases and filter albums by category.
+
+## 🎨 Visual Identity
+
+Inspired by BTS's connection with the color purple, the website features:
+
+- A dark interface with purple and lilac accents.
+- Elegant typography and minimalist elements.
+- Interactive details and smooth animations.
+- A responsive design for desktop and mobile devices.
+
+## 🛠️ Technologies
+
+This project was developed using:
+
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript
 
-## 🚀 Run locally
-1. Download or clone this repository.
-2. Open `index.html` in your browser, or use the Live Server extension in VS Code.
+## 💜 A Journey Beyond Music
 
-## 🌐 GitHub Pages
-In your repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+BTS's music represents more than melodies and lyrics. It tells stories, expresses emotions, and connects people around the world.
 
-Your site will be available at:
-`https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`
+This project is a small tribute to that journey and to the seven artists behind it.
 
-## 📌 Content note
-The release cards currently show a small starter selection, not a complete verified catalog. Expand the data carefully and verify release titles, dates, editions and tracklists with official sources before presenting the site as a complete discography. Solo discographies are planned for a later iteration.
+**Borahae! 💜**
 
-## 🔗 Official reference
-[BIGHIT MUSIC — BTS](https://ibighit.com/bts/eng/)
+---
 
-## 💜 Disclaimer
-Independent, fan-made, non-commercial educational project. Not affiliated with, endorsed by, or sponsored by BIGHIT MUSIC or HYBE. BTS name, logos, photographs, album artwork and related trademarks belong to their respective owners. Replace the typographic cover placeholders with properly credited and lawfully usable artwork if you choose to add images.
+## 🔗 Official Links
+
+- [BTS Official Website](https://ibighit.com/bts/eng/)
+- [BIGHIT MUSIC](https://ibighit.com/)
+
+---
+
+## 📌 Disclaimer
+
+This is an independent, non-commercial, fan-made project created for educational and appreciation purposes.
+
+It is not affiliated with, endorsed by, or sponsored by BTS, BIGHIT MUSIC, or HYBE. All related names, trademarks, images, and copyrighted materials belong to their respective owners.
